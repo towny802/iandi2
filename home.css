@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2015, 9:36:23 PM
+    Author     : zacharybechhoefer
+*/
+@media only screen and (max-device-width:900px) {
+    body { background: url(images/hoodie_bg.png) no-repeat center center fixed;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           margin:0 0 0 0;
+
+    }
+    
+    #loading-mask {z-index:1; position:absolute; width:100%;
+    background: url(images/hoodie_bg.png) no-repeat center center fixed;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;}
+    
+    #content { width:100%; margin:0 auto; }
+    #top {width:100%;  position:relative; float:top; margin:0 0;}
+    
+    #page {position:relative; width:100%;}
+    #paper {position:absolute; width:100%; margin-top:-4px;}
+    #notes {position:absolute; width:100%;}
+    .notes {position:relative; width:100%; margin: -4px 0;}
+    
+    .right_arrow {position:absolute; width:8%; right:0px; margin-top:30%; margin-right:3%;}
+    .left_arrow {position: absolute; width:8%; left:0px; margin-top:30%; margin-left:3%; }
+    .minor_arrow {z-index:2;}
+    #minor_right_arrow {position:absolute; width:2%; right:33%; margin-top:22%; margin-right:3%;}
+    #minor_left_arrow {position: absolute; width:2%; left:33%; margin-top:22%; margin-left:3%;}
+    .thread { position:relative; width: 80%; left:10%;}
+    .stitching {position:relative; width: 100%; margin: 5% 0 5% 0;}
+    
+    .slide {position:relative;}
+    .pull {position:relative; width:70%; left: 15%;}
+    .pull_strings {position:absolute; width:70%; left: 15%; z-index:1;}
+    
+    .design {position:absolute; width:70%; left:15%; z-index: 1;}
+    
+    .overlay {position:relative; width:100%; pointer-events:none; z-index:3;}
+    #coloring_page {position:relative; width:100%; background-color: black;}
+    #selection_box {position:relative; width:80%; left:10%; }
+    #selection_box_container {position:absolute; width:100%; height:100%; top:2%;}
+    .selectable {}
+    .selected {box-shadow: 0px 0px 83px 19px rgba(255,255,255,1); z-index:2;}
+    
+    .selectable_color {}
+    .selected_color {box-shadow: 0px 0px 5px 5px rgba(255,255,255,1); z-index:1;}
+    #color_picker {position:relative; height:25%; overflow-x: auto; white-space: nowrap; padding:0px 20px 0px 20px ;}
+    
+    .feel_the_bern_colors {position:relative; width:100%; height:32%;  background-color:#F5FFFA; }
+    #feel {background-image:url("images/colors/auburn.png"); box-shadow:5px #fff;}
+    #the {background-image:url("images/colors/lemon.png");}
+    #bern {background-image:url("images/colors/green.png");}
+    
+    #our_dna{}
+    
+    #position {position:relative; width:100%; padding:10px 0px 10px 0px;}
+}
+
+@media only screen and (min-device-width: 991px) {
+    body { background: url(images/hoodie_bg.png) no-repeat center center fixed;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           margin:0 0 0 0;
+
+    }
+    
+    #loading-mask {z-index:1; position:absolute; width:100%;
+    background: url(images/hoodie_bg.png) no-repeat center center fixed;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;}
+    
+    #content { width:550px; margin:0 auto; }
+    #top {width:100%;  position:relative; float:top; margin:0 0;}
+    
+    #page {position:relative; width:100%;}
+    #paper {position:absolute; width:100%; margin-top:-4px;}
+    #notes {position:absolute; width:100%;}
+    .notes {position:relative; width:100%; margin: -4px 0;}
+    
+    .right_arrow {position:absolute; width:8%; right:0px; margin-top:30%; margin-right:3%;}
+    .left_arrow {position: absolute; width:8%; left:0px; margin-top:30%; margin-left:3%; }
+    .minor_arrow {z-index:2;}
+    #minor_right_arrow {position:absolute; width:2%; right:33%; margin-top:22%; margin-right:3%;}
+    #minor_left_arrow {position: absolute; width:2%; left:33%; margin-top:22%; margin-left:3%;}
+    .thread { position:relative; width: 80%; left:10%;}
+    .stitching {position:relative; width: 100%; margin: 5% 0 5% 0;}
+    
+    .slide {position:relative;}
+    .pull {position:relative; width:70%; left: 15%;}
+    .pull_strings {position:absolute; width:70%; left: 15%; z-index:1;}
+    
+    .design {position:absolute; width:70%; left:15%; z-index: 1;}
+    
+    //.overlay {position:relative; width:100%; pointer-events:none; z-index:3;}
+    #coloring_page {position:relative; width:100%; background-color: black;}
+    #selection_box {position:relative; width:80%; left:10%; display: block; overflow:auto;}
+    #selection_box_container {position:relative; width:100%;  top:2%; }
+    .selectable {}
+    .selected {box-shadow: 0px 0px 83px 19px rgba(255,255,255,1); z-index:2;}
+    
+    .selectable_color {}
+    .selected_color {box-shadow: 0px 0px 5px 5px rgba(255,255,255,1); z-index:1;}
+    #color_picker {position:relative; height:25%; overflow-x: auto; white-space: nowrap; padding:0px 20px 0px 20px ;}
+    
+    /* .feel_the_bern_colors {position:relative; width:100%; height:32%;  background-color:#F5FFFA;}
+    #feel {background-image:url("images/colors/auburn.png"); box-shadow:5px #fff;}
+    #the {background-image:url("images/colors/lemon.png");}
+    #bern {background-image:url("images/colors/green.png");}*/
+    
+    #our_dna{}
+    
+    #position {position:relative; width:100%; padding:10px 0px 10px 0px;}
+};
